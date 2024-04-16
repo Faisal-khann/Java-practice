@@ -13,6 +13,6 @@ public class Space_Number2 {
             }
             System.out.println(" ");
         }
-
+       sc.close();
     }
 }
