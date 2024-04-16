@@ -1,5 +1,3 @@
-package Patterns;
-
 import java.util.*;
 public class AlphabetPattern {
     public static void main(String[] args) {
@@ -17,8 +15,7 @@ public class AlphabetPattern {
     }
 }
 
-/* output
-a 
-ab 
-abc 
-abcd */
+// a 
+// ab 
+// abc 
+// abcd

@@ -1,8 +1,9 @@
-import java.util.*;
-public class Star_Triangle2 {
+
+import java.util.Scanner;
+public class PyramidFull_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of rows");
+        System.out.print("Enter the number of rows:");
         int n = sc.nextInt();
         //For Rows
         for (int i = 1; i<=n; i++){
@@ -37,6 +38,12 @@ public class Star_Triangle2 {
             }
             System.out.println();
         }
-
+       sc.close(); 
     }
 }
+        //   *  
+        //  *** 
+        // *****
+        // *****
+        //  ***
+        //   *

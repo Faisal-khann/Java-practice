@@ -1,17 +1,32 @@
 import java.util.*;
+
 public class PyramidFull {
     public static void main(String[] args) {
-        // outer loop for rows
-        int n = 5;
-        for (int i = 1; i <= n; i++) {
-            for (int s = 1; s <= n - i; s++) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of rows:");
+        int n = sc.nextInt();
+        //For Rows(OUTER LOOP)
+        for (int i = 0; i<n; i++){
+        //For Space
+        for (int j = 0; j<n-i-1; j++){
+            System.out.print(" ");
+        }
+        //For Star
+        for (int k = 0; k<2*i+1; k++){
+            System.out.print("*");
+        }
+        //For Space
+        for (int j = 0; j<n-i-1; j++){
                 System.out.print(" ");
             }
-            for (int j = 1; j <= i; j++) {
-                System.out.print("* ");
-            }
-            System.out.println();
+
+            System.out.println(" ");
         }
+      sc.close();
     }
 }
-
+        //     *     
+        //    ***    
+        //   *****   
+        //  *******
+        // *********
