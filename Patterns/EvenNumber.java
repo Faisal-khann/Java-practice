@@ -1,8 +1,7 @@
-
-// Print even Number pattern with spaces
+// Print Even Number pattern with spaces
 import java.util.*;
 
-public class Space_Number {
+public class EvenNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of rows:");
