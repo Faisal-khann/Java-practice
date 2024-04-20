@@ -1,7 +1,5 @@
-
 //Prime Number is number which is divisible by 1 and its-self.
 //Time complexity is : 0(n)
-package Maths;
 import java.util.*;
 
 public class PrimeNum {
@@ -18,9 +16,9 @@ public class PrimeNum {
         }
 
         if (temp > 0) {
-            System.out.println("Number is not prime. ");
+            System.out.println(num + " is not prime Number ");
         } else {
-            System.out.println("Number is Prime.");
+            System.out.println(num + " is Prime Number ");
         }
         sc.close();
     }
@@ -29,3 +27,4 @@ public class PrimeNum {
         primeNumber();
     }
 }
+
