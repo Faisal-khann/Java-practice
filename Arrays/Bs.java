@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Bs_1 {
+public class Bs {
     public static void binarySearch(int[]arr) { //Methods for binary search
         int beg = 0;
         int end = arr.length - 1;

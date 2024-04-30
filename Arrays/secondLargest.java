@@ -1,11 +1,11 @@
 public class secondLargest {
-    public static void SecondLargest(int[]arr, int arr_size){
-        if (arr_size<2){
+    public static void SecondLargest(int[]arr, int n){
+        if (n<2){
             System.out.printf("Invalid input");
             return;
         }
         int first = arr[0], second = Integer.MIN_VALUE;
-        for (int i = 0; i<arr_size; i++){
+        for (int i = 0; i<n; i++){
             if (arr[i]>first){
                 second = first;
                 first = arr[i];
