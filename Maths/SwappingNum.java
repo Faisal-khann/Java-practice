@@ -15,7 +15,6 @@ public class SwappingNum {
         num1 = num2;
         num2 = temp;
         System.out.println("After Swapping : num1 = " + num1 + " & num2 = " + num2);
-
         sc.close();
     }
 
