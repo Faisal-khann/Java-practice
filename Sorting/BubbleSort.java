@@ -17,7 +17,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int[] arr = { 25, 15, 35, 55, 45 };
-        System.out.println("Before Sorting:" + Arrays.toString(arr));
+        // System.out.println("Before Sorting:" + Arrays.toString(arr));
 
         // Calling the Method bubbleSort
         bubbleSort(arr);
