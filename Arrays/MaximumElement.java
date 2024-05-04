@@ -1,4 +1,3 @@
-// import java.lang.reflect.Array;
 import java.util.Arrays;
 public class MaximumElement {
     // This Method take less time complexity and the time complexity is o(n)
