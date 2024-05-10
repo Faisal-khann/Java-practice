@@ -7,11 +7,12 @@ public class RockPaperScissors {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        String[] choices = {"Rock", "Paper", "Scissors"};
+        String[] choices = { "Rock", "Paper", "Scissors" };
 
         while (true) {
             // Get user input
-            System.out.println("Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors, or any other key to quit): ");
+            System.out
+                    .println("Enter your choice (0 for Rock, 1 for Paper, 2 for Scissors, or any other key to quit): ");
             int userChoice;
             try {
                 userChoice = scanner.nextInt();
@@ -36,8 +37,8 @@ public class RockPaperScissors {
             if (userChoice == computerChoice) {
                 System.out.println("It's a draw!");
             } else if ((userChoice == 0 && computerChoice == 2) ||
-                       (userChoice == 1 && computerChoice == 0) ||
-                       (userChoice == 2 && computerChoice == 1)) {
+                    (userChoice == 1 && computerChoice == 0) ||
+                    (userChoice == 2 && computerChoice == 1)) {
                 System.out.println("You win!");
             } else {
                 System.out.println("Computer wins!");
