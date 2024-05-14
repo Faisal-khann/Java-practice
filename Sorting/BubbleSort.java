@@ -1,9 +1,7 @@
 import java.util.Arrays;
 
 public class BubbleSort {
-    public static void bubbleSort(int[] arr, int n) // Methods for BubbleSort
-    {
-        // int n = arr.length;
+    public static void bubbleSort(int[] arr, int n){ //Methods for BubbleSort
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - 1 - i; j++) {
                 if (arr[j] > arr[j + 1]) {
@@ -20,8 +18,7 @@ public class BubbleSort {
         int n = arr.length;
         System.out.println("Before Sorting:" + Arrays.toString(arr));
 
-        // Calling the Method bubbleSort
-        bubbleSort(arr, n);
+        bubbleSort(arr, n); // Method calling
         System.out.println("After Sorting:" + Arrays.toString(arr));
     }
 }
