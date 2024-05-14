@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class BubbleSort {
     public static void bubbleSort(int[] arr, int n){ //Methods for BubbleSort
         for (int i = 0; i < n - 1; i++) {
@@ -12,7 +11,6 @@ public class BubbleSort {
             }
         }
     }
-
     public static void main(String[] args) {
         int[] arr = { 25, 15, 35, 55, 45 };
         int n = arr.length;
@@ -22,7 +20,6 @@ public class BubbleSort {
         System.out.println("After Sorting:" + Arrays.toString(arr));
     }
 }
-
 // **********Theory of Bubble Sort*********
 // No of element of array is n then no of passes(i) is n-1;
 // Size of array is arr.length then no of passes(i) is arr.length-1;
