@@ -1,6 +1,7 @@
 
 //Program of Move zero at the end of the element
 //[0, 2, 0, 4, 5] -> [2, 4, 5, 0, 0] 
+//Time complexity -> 0(n)
 import java.util.*;
 
 public class MoveZero {
