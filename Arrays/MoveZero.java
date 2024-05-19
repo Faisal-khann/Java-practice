@@ -6,9 +6,9 @@ import java.util.*;
 
 public class MoveZero {
     static void moveZero(int[] arr, int n) {
-        int zero = 0;
+        int zero = 0; //Take pivot element as 0
         for (int i = 0; i < n; i++) {
-            if (arr[i] == 0) {
+            if (arr[i] == 0) { 
                 zero++;
             } else {
                 int temp = arr[i];
