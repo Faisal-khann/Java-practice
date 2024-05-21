@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class MaximumElement {
-    // This Method take less time complexity and the time complexity is o(n)
+//    This Method take less time complexity and the time complexity is o(n)
 //    public static int max(int[]arr){
 //        int maxVal = arr[0]; //Assume Max value in 0th index
 //        for (int i = 1; i< arr.length; i++){
