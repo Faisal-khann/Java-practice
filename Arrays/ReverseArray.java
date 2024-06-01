@@ -2,10 +2,10 @@
 //Time complexity -> 0(n)
 import java.util.Arrays;
 public class ReverseArray {
-    public static void myReverse(int[] arr) //Method for swapping
+    public static void myReverse(int[] arr, int n) //Method for swapping
     {
         int start = 0;
-        int end = arr.length - 1;
+        int end = n - 1;
 
         while (start < end) { // Swapping 
             int temp = arr[start];
@@ -18,8 +18,9 @@ public class ReverseArray {
 
     public static void main(String[] args) {
         int[] arr = { 3, 6, 9, 12 };
+        int n = arr.length;
         System.out.println("Original Array:" + Arrays.toString(arr));
-        myReverse(arr);
+        myReverse(arr, n);
         System.out.println("After reverse:" + Arrays.toString(arr));
     }
 }
