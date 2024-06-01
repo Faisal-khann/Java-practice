@@ -1,11 +1,11 @@
 import java.util.Arrays;
 public class MaximumElement {
 //    This Method take less time complexity and the time complexity is o(n)
-     static int findMaxElement(int[]arr){
+     static int findMaxElement(int[]arr, int n){
        int maxVal = arr[0]; //Assume Max value in 0th index
 
-       for (int i = 1; i< arr.length; i++){
-           if (arr[i]>maxVal){
+       for (int i = 1; i < n; i++){
+           if (arr[i] > maxVal){
                maxVal = arr[i];
            }
        }
@@ -13,9 +13,9 @@ public class MaximumElement {
    }
     public static void main(String[] args) {
         int[]arr = {4, 16, 12, 20, 8 };
+        int n = arr.length;
         System.out.println("Original Array: "+Arrays.toString(arr));
-       System.out.println("Given Arrays: "+ Arrays.toString(arr));
-       System.out.println("Maximum element: "+ findMaxElement(arr));
+       System.out.println("Maximum element: "+ findMaxElement(arr, n));
 
        /*Using Arrays.sort() Method and Time complexity-> 0(nlogn)*/
         /*  Arrays.sort(arr);
