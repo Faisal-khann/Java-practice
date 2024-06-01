@@ -6,8 +6,8 @@ public class ReverseArray {
     {
         int start = 0;
         int end = arr.length - 1;
-        // Perform swapping
-        while (start < end) {
+
+        while (start < end) { // Swapping 
             int temp = arr[start];
             arr[start] = arr[end];
             arr[end] = temp;
