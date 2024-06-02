@@ -7,7 +7,7 @@ public class InsertionSort {
             int j = i - 1; // This is used for previous element of key value ex:- '12';
 
             while (j >= 0 && arr[j] > key) { // Used for comparison of j and key value 0
-                arr[j] = arr[j+1]; // Swap
+                arr[j + 1] = arr[j]; // Swap
                 j--;
             }
             arr[j + 1] = key;
