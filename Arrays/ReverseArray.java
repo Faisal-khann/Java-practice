@@ -1,13 +1,15 @@
+
 //Perform Reverse Array by using while loop
 //Time complexity -> 0(n)
 import java.util.Arrays;
+
 public class ReverseArray {
-    public static void myReverse(int[] arr, int n) //Method for swapping
+    public static void myReverse(int[] arr, int n) // Method for swapping
     {
         int start = 0;
         int end = n - 1;
 
-        while (start < end) { // Swapping 
+        while (start < end) { // Swapping
             int temp = arr[start];
             arr[start] = arr[end];
             arr[end] = temp;
