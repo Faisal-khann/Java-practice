@@ -1,5 +1,4 @@
 package Oops;
-
 class Animal {
     void eat() {
         System.out.println("Eating....");
@@ -20,10 +19,12 @@ class Dog extends Animal{
         System.out.println("Running Fast...");
     }
 }
-public class Main {
+public class Simple {
     public static void main(String[] args) {
         Dog d = new Dog();
         d.run();
         d.bark();
     }   
 }
+//javac Oops/Simple.java
+
