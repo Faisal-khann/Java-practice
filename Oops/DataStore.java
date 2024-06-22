@@ -1,4 +1,5 @@
 package Oops;
+
 //Store the data of employee where the data is like 
 //employee id, name, salary, and company with the help of constructor.
 //All employee work in the same company so, we need to make the company variable as a static variable
@@ -10,14 +11,14 @@ class Employee {
     static String company = "Meksoft";
 
     // Make constructor
-    Employee(int id, String name, int salary){
+    Employee(int id, String name, int salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
     }
 
-    void display(){
-        System.out.println("ID:"+id+", "+"NAME:"+name+", "+"SALARY:"+salary+", "+"COMPANY:"+company);
+    void display() {
+        System.out.println("ID:" + id + ", " + "NAME:" + name + ", " + "SALARY:" + salary + ", " + "COMPANY:" + company);
     }
 }
 
@@ -29,5 +30,5 @@ public class DataStore {
         emp1.display();
         emp2.display();
     }
-    
+
 }
