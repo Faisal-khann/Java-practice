@@ -18,7 +18,8 @@ class Employee {
     }
 
     void display() {
-        System.out.println("ID:" + id + ", " + "NAME:" + name + ", " + "SALARY:" + salary + ", " + "COMPANY:" + company);
+        System.out
+                .println("ID:" + id + ", " + "NAME:" + name + ", " + "SALARY:" + salary + ", " + "COMPANY:" + company);
     }
 }
 
