@@ -1,4 +1,4 @@
-package Oops.Encapsulation;
+// package Oops.Encapsulation;
 class Student{
     private String name;
     private int rollno;
