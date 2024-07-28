@@ -1,15 +1,11 @@
-class CounterDemo{
+public class Counter_Demo {
     static int count = 0;
-    CounterDemo(){
+    static void CounterDemo(){ //Define Static Method 
         count++;
         System.out.println(count);
     }
-}
-public class Counter_Demo {
     public static void main(String[] args) {
-        CounterDemo c1 = new CounterDemo();
-        CounterDemo c2 = new CounterDemo();
-        CounterDemo c3 = new CounterDemo();
+        CounterDemo(); //Call static method directly without creating an object
 
     }
 }

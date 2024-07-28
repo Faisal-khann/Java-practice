@@ -12,5 +12,7 @@ public class UserInput {
         System.out.println("Enter the Number ");
         int num = sc.nextInt();
         findEven(num);
+
+        sc.close();
     }
 }
