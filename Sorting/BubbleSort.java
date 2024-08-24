@@ -1,4 +1,5 @@
 import java.util.Arrays;
+// Time complexity -> O(n2)
 public class BubbleSort {
     public static void bubbleSort(int[] arr, int n){ //Methods for BubbleSort
         for (int i = 0; i < n - 1; i++) {
