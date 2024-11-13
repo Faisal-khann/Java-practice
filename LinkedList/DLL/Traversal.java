@@ -1,19 +1,19 @@
-// package LinkedList;
+package LinkedList.DLL;
 
 class Node {
     int data;
-    Node prev;
     Node next;
+    Node prev;
 
-    // Constructor to initialize the node with data
     public Node(int data) {
         this.data = data;
-        this.prev = null;
         this.next = null;
+        this.prev = null;
     }
-};
 
-public class DLL {
+}
+
+public class Traversal {
     // Function to traverse the doubly linked list
     // in forward direction
     static void forwardTraversal(Node head) {
@@ -56,7 +56,7 @@ public class DLL {
     }
 
     public static void main(String[] args) {
-         // Sample usage of the doubly linked
+        // Sample usage of the doubly linked
         // list and traversal functions
         Node head = new Node(10);
         Node second = new Node(20);
@@ -70,11 +70,12 @@ public class DLL {
         third.next = fourth;
         fourth.prev = third;
 
-
         System.out.println("Forward Traversal:");
         forwardTraversal(head);
 
         System.out.println("Backward Traversal:");
         backwardTraversal(fourth);
     }
+
 }
+
